@@ -1,0 +1,32 @@
+TASK 1 - TEXT GENERATION EVALUATION
+
+Model:
+DistilGPT2 (distilgpt2)
+
+Method:
+20 diverse prompts were provided to the pretrained text-generation model.
+The generated outputs were saved individually in the generated_samples folder.
+
+Qualitative Evaluation:
+The model was able to generate text for all 20 prompts successfully. The
+outputs were generally relevant to the given prompts, especially for simple
+creative and explanatory tasks. However, some outputs were repetitive,
+grammatically inconsistent, or incomplete. This is expected because
+DistilGPT2 is a relatively small pretrained language model and is not an
+instruction-tuned chatbot.
+
+Strengths:
+- Fast local text generation.
+- Works without an API key.
+- Produces different responses for different prompts.
+- Easy to run using Python and Hugging Face Transformers.
+
+Limitations:
+- Some responses may lack factual accuracy.
+- Complex instructions may not be followed well.
+- Output quality is lower than larger instruction-tuned models.
+
+Overall Result:
+The experiment successfully demonstrated pretrained text generation across
+20 diverse prompts. The model produced usable outputs, while also showing
+the limitations of smaller language models.
